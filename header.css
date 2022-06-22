@@ -15,6 +15,7 @@ header {
     padding-top: 10px;
 }
 
+
 .navbar ul {
     display : inline-flex;
     list-style: none;
@@ -88,4 +89,27 @@ text-transform: none;
 
 body{
     margin:0;
+}
+
+.headericons{
+    display:flex;
+    flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+}
+
+
+.iconsleft{
+    visibility: hidden;
+    margin-right:auto;
+    flex:1;
+}
+
+.iconsright{
+    flex: 1;
+
+}
+
+.iconsright span {
+    padding: 5px;
 }
