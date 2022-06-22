@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'RennerMediumFont';
+    src: url(https://cdn.shopify.com/s/files/1/0464/1731/3955/files/montserrat-v15-latin-regular.woff2?v=1621583821) format("woff2"), url(https://cdn.shopify.com/s/files/1/0464/1731/3955/files/montserrat-v15-latin-regular.woff?v=1621583841) format("woff"); }
+  
+
+header {
+    text-align: center;
+    font-family: RennerMediumFont;
+
+}
+
+.headerlogo img {
+    min-width:150px;
+    max-width:330px;
+    padding-top: 10px;
+}
+
+.navbar ul {
+    display : inline-flex;
+    list-style: none;
+    color: #000000;
+    padding-inline-start: 0px;
+   
+    
+}
+
+.navbar ul li {
+    
+    padding: 5px;
+    margin:0px;
+}
+
+.navbar ul li a {
+    color: #000000;
+    text-decoration: none; 
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+
+.navbar ul li :hover{
+    color: #40e0d0;
+}
+
+.dropdown{
+    display:none;
+   
+}
+
+.navbar ul :hover .dropdown {
+    display:block;
+    position: absolute;
+}
+
+.navbar ul :hover .dropdown ul {
+display: block;
+margin: 10px;
+text-transform: none;
+
+}
+
+.dropdown ul li a{
+    text-transform: capitalize ;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.dropdown ul li a:before{
+    transform: translateX(-100%);
+    transition: 0.3s;
+}
+
+.topheader{
+    display:flex;
+    min-height: 35px;
+    font-size: 12px;
+    justify-content: space-around;
+    font-weight: 700;
+    line-height: 1.4;
+    background-color: #fcdcdc;
+    width: 100%;
+    margin:0px;}
+
+.Shipping, .ReturnPolicy{
+    padding-top: 10px;
+}   
+
+body{
+    margin:0;
+}
