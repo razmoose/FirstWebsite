@@ -1,0 +1,53 @@
+.displaybar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.sortby select{
+    font-family: RennerMediumFont;
+    border: 0 solid transparent;
+    font-weight: 700;
+}
+
+.displayitems{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.itemimg img{
+    width: 100%;
+}
+
+
+.griditem{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+
+.itemdetails{
+    height:80px;
+    padding:15px 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .02em;
+    text-align: center;
+}
+
+.itemtitle{
+    color: black;
+    text-decoration: none;
+}
+
+.itemprice{
+    margin: 5px 0px 10px;
+    font-size: 14px;
+}
+
+.discountprice{
+    color: red;
+}

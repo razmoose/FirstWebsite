@@ -3,13 +3,15 @@
     padding-right:55px;
     display:flex;
     flex-direction:row;
+    font-weight: 700;
+    font-size: 13px;
+    
 }
 
 .filterbar{
     flex:1;
     text-align: left;
     font-size: 15px;
-    font-weight: 700;
 }
 
 .filterbar ul{
@@ -30,6 +32,12 @@
     flex:3;
 }
 
+.mainimg{
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
 .mainimg img{
     max-width: 100%;
 }

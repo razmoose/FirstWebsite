@@ -3,7 +3,7 @@
     src: url(https://cdn.shopify.com/s/files/1/0464/1731/3955/files/montserrat-v15-latin-regular.woff2?v=1621583821) format("woff2"), url(https://cdn.shopify.com/s/files/1/0464/1731/3955/files/montserrat-v15-latin-regular.woff?v=1621583841) format("woff"); }
   
 body{
-    font-family: RennerMediumFont;
+    font-family: 'RennerMediumFont';
     font-size: 12px;   
 }
 header {
