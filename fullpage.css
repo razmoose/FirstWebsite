@@ -1,0 +1,52 @@
+.fullpage{
+    padding-left: 55px;
+    padding-right:55px;
+    display:flex;
+    flex-direction:row;
+}
+
+.filterbar{
+    flex:1;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.filterbar ul{
+    list-style: none;
+}
+
+.widgetcontent ul{
+    font-size: 14px;
+    padding: 0px 0px;
+}
+
+.widgetcontent ul li{
+    padding: 3px 0px;
+}
+
+
+.contentbar{
+    flex:3;
+}
+
+.mainimg img{
+    max-width: 100%;
+}
+
+.widgetcontent{
+    margin-bottom: 30px;
+}
+
+.contentcolumn{
+    column-count: 2;
+    column-gap: 12px;
+}
+
+.sublist{
+    margin-left: 15px;
+}
+
+.categorycontent li ul{
+    padding: 8px 0;
+}

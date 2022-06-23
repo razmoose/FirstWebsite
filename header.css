@@ -2,11 +2,14 @@
     font-family: 'RennerMediumFont';
     src: url(https://cdn.shopify.com/s/files/1/0464/1731/3955/files/montserrat-v15-latin-regular.woff2?v=1621583821) format("woff2"), url(https://cdn.shopify.com/s/files/1/0464/1731/3955/files/montserrat-v15-latin-regular.woff?v=1621583841) format("woff"); }
   
-
+body{
+    font-family: RennerMediumFont;
+    font-size: 12px;   
+}
 header {
     text-align: center;
-    font-family: RennerMediumFont;
-
+    
+    font-weight: 600;
 }
 
 .headerlogo img {
@@ -35,8 +38,7 @@ header {
     color: #000000;
     text-decoration: none; 
     text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 600;
+    
     
 }
 
@@ -58,24 +60,26 @@ header {
 display: block;
 margin: 10px;
 text-transform: none;
+opacity: 1;
+box-shadow: 0 0 4px #0000001a;
+background-color: #fff;
+
 
 }
 
+.dropdown ul :hover {
+background: #f2f2f2;
+}
 .dropdown ul li a{
     text-transform: capitalize ;
     font-weight: 400;
     font-size: 14px;
 }
 
-.dropdown ul li a:before{
-    transform: translateX(-100%);
-    transition: 0.3s;
-}
 
 .topheader{
     display:flex;
     min-height: 35px;
-    font-size: 12px;
     justify-content: space-around;
     font-weight: 700;
     line-height: 1.4;
@@ -112,4 +116,27 @@ body{
 
 .iconsright span {
     padding: 5px;
+}
+
+.locationbar{
+    text-decoration: none; 
+    text-transform: uppercase;
+    background-color: #f9f9f9;
+    margin-bottom: 30px;
+    text-align: left;
+    height: 35px;   
+}
+
+.locationbar a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.locationelements{
+    padding-left: 100px;
+}
+
+.locationelements a,span{
+        padding-right: 8px;
+
 }
