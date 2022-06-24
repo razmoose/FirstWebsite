@@ -4,12 +4,12 @@
   
 body{
     font-family: 'RennerMediumFont';
-    font-size: 12px;   
+    font-size: 12px;
 }
 header {
     text-align: center;
-    
     font-weight: 600;
+    display: unset;
 }
 
 .headerlogo img {
@@ -18,7 +18,9 @@ header {
     padding-top: 10px;
 }
 
-
+.navbar{
+    border-bottom: 1px solid #000000;
+}
 .navbar ul {
     display : inline-flex;
     list-style: none;
@@ -78,18 +80,17 @@ background: #f2f2f2;
 
 
 .topheader{
-    display:flex;
-    min-height: 35px;
-    justify-content: space-around;
     font-weight: 700;
-    line-height: 1.4;
     background-color: #fcdcdc;
-    width: 100%;
-    margin:0px;}
+    min-height: 21px;
+}
 
-.Shipping, .ReturnPolicy{
-    padding-top: 10px;
-}   
+.topheadcontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 7px 0 ;
+}
 
 body{
     margin:0;
@@ -125,6 +126,7 @@ body{
     margin-bottom: 30px;
     text-align: left;
     height: 35px;   
+    
 }
 
 .locationbar a{
@@ -134,9 +136,25 @@ body{
 
 .locationelements{
     padding-left: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8px;
 }
 
 .locationelements a,span{
         padding-right: 8px;
 
+}
+
+.persistent { 
+    width: 100%;
+    opacity: 1;
+    background-color: #fff;
+}
+
+.wrapper{
+    min-height: 108.55px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
 }

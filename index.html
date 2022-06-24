@@ -6,6 +6,7 @@
 <link rel="stylesheet" type="text/css" href="./header.css"/>
 <link rel="stylesheet" type="text/css" href="./fullpage.css"/>
 <link rel="stylesheet" type="text/css" href="./contentbar.css"/>
+<link rel="stylesheet" type="text/css" href="./footer.css"/>
 <title>Bonanza Mockup</title>
 <script src='https://kit.fontawesome.com/8cdf5339ae.js' crossorigin='anonymous'></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
@@ -14,11 +15,17 @@
 <body>
    <header>
     <div class="topheader">
-        <div class="Shipping">
-            <i class="fab fa-telegram-plane"></i>Free shipping on all orders above PKR 2000</div>
-        <div class="ReturnPolicy">No Return or Exchange on Sale Items</div>
+        <div class="pagewidth">
+            <div class="topheadcontent">
+                <div class="Shipping">
+                    <i class="fab fa-telegram-plane"></i>Free shipping on all orders above PKR 2000</div>
+                <div class="ReturnPolicy">No Return or Exchange on Sale Items</div>
+            </div>
+        </div>
     </div>
-    <div class="headericons">
+    <div class="wrapper">
+        <div class="persistent">
+            <div class="headericons">
         <div class="iconsleft">
             <span class="material-symbols-outlined"> search </span>  
             <span class="material-symbols-outlined"> account_circle </span>
@@ -26,7 +33,7 @@
             <span class="material-symbols-outlined"> shopping_bag </span>
         </div>
         <div class = "headerlogo">
-        <a href="index.html"><img src="Bonanza_Logo_500x@2x.webp" alt="Homepage"></a>
+        <a href="index.html"><img src="images/Bonanza_Logo_500x@2x.webp" alt="Homepage"></a>
         </div> 
         <div class="iconsright">
             <span class="material-symbols-outlined"> search </span>  
@@ -34,8 +41,8 @@
             <span class="material-symbols-outlined">favorite</span>
             <span class="material-symbols-outlined"> shopping_bag </span>
         </div>
-    </div>
-        <div class="navbar">
+            </div>
+            <div class="navbar">
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#fragnances">Fragnances</a>
@@ -98,13 +105,16 @@
             </li>
                
         </ul>
+            </div>
         </div>
+    </div>
         <div class="locationbar">
-            <hr>
-            <div class="locationelements">
-                <a href="index.html">Home</a>
-                <span class="symbol">|</span>
-                <span class="currentloc">Beauty Fragnances</span>
+            <div class="pagewidth">
+                <div class="locationelements">
+                    <a href="index.html">Home</a>
+                    <span class="symbol">|</span>
+                    <span class="currentloc">Beauty Fragnances</span>
+                </div>
             </div>
         </div>
    </header> 
@@ -242,7 +252,7 @@
         </div>
         <div class="contentbar">
             <div class="mainimg">
-                <img src="fragrance_web.webp" alt="Fragrances">
+                <img src="images/fragrance_web.webp" alt="Fragrances">
             </div>
             <div class="displaybar">
                 <div class="displayicons">
@@ -267,7 +277,9 @@
             <div class="displayitems">
                 <div class="griditem">
                     <div class="itemimg">
-                    <img src="MUROEDP100-MULTI_360x.webp" alt="Musk Royale">
+                    <img class="originalimg" src="images/MUROEDP100-MULTI_360x.webp" alt="Musk Royale">
+                    <img class="hoverimg" src="images/MUROEDP100-MULTIc_1800x1800.jpg" alt="Musk Royale">
+
                     </div>
                     <div class="itemdetails">
                         <a href="#" class="itemtitle">Musk Royale (100 ML)</a>
@@ -279,7 +291,8 @@
                 </div>
                 <div class="griditem">
                     <div class="itemimg">
-                    <img src="ADDIC100ML-MULTIb_360x.webp" alt="Addiction">
+                    <img class="originalimg" src="images/ADDIC100ML-MULTIb_360x.webp" alt="Addiction">
+                    <img class="hoverimg" src="images\ADDIC100ML-MULTI_1800x1800.webp" alt="Addiction">
                     </div>
                     <div class="itemdetails">
                         <a href="#" class="itemtitle">Addiction (100 ML)</a>
@@ -291,7 +304,8 @@
                 </div>
                 <div class="griditem">
                     <div class="itemimg">
-                    <img src="CHAREDP100-MULTI_360x.webp" alt="Charisma">
+                    <img class="originalimg" src="images/CHAREDP100-MULTI_360x.webp" alt="Charisma">
+                    <img class="hoverimg" src="images\CHAREDP100-MULTIc_1800x1800.jpg" alt="Charisma">
                     </div>
                     <div class="itemdetails">
                         <a href="#" class="itemtitle">Charisma (100 ML)</a>
@@ -303,7 +317,8 @@
                 </div>
                 <div class="griditem">
                     <div class="itemimg">
-                    <img src="NOOR100ML-MULTIb_540x.webp" alt="Noor">
+                    <img class="originalimg" src="images/NOOR100ML-MULTIb_540x.webp" alt="Noor">
+                    <img class="hoverimg" src="images\NOOR100ML-MULTI_1800x1800.webp" alt="Noor">
                     </div>
                     <div class="itemdetails">
                         <a href="#" class="itemtitle">Noor (100 ML)</a>
@@ -315,7 +330,8 @@
                 </div>
                 <div class="griditem">
                     <div class="itemimg">
-                    <img src="ESSEN100ML-MULTI_540x.webp" alt="Essenza">
+                    <img class="originalimg" src="images/ESSEN100ML-MULTI_540x.webp" alt="Essenza">
+                    <img class="hoverimg" src="images\ESSEN100ML-MULTId_1800x1800.webp" alt="Essenza">
                     </div>
                     <div class="itemdetails">
                         <a href="#" class="itemtitle">Essenza (100 ML)</a>
@@ -327,7 +343,8 @@
                 </div>
                 <div class="griditem">
                     <div class="itemimg">
-                    <img src="MEMOEDP100-MULTI_540x.webp" alt="Memories">
+                    <img class="originalimg" src="images/MEMOEDP100-MULTI_540x.webp" alt="Memories">
+                    <img class="hoverimg" src="images\MEMOEDP100-MULTIc_1800x1800.webp" alt="Memories">
                     </div>
                     <div class="itemdetails">
                         <a href="#" class="itemtitle">Memories (100 ML)</a>
@@ -340,4 +357,46 @@
             </div>
         </div>
    </div>
+   <footer>
+    <hr>
+    <div class="pagewidth">
+        <div class="footerinfo">
+            <div class="contactinfo">
+                <p class="foothead">Phone +92 21 111-244-266</p>
+                <p>Email: orders@bonanzagt.com</p>
+                <p>Customer Care: <br> Monday to Saturday: 9 am to 9 pm</p>
+                <ul class="socialicons">
+                    <li class="firsticon"><i class="fa fa-facebook"><span class="icontext">Facebook</span></i></li>
+                    <li><i class="fa fa-instagram"><span class="icontext">Instagram</span></i></li>
+                    <li><i class="fa fa-youtube"><span class="icontext">YouTube</span></i></li>
+                </ul>
+            </div>
+            <div class="information">
+                <h4 class="foothead">Information</h4>
+                <ul>
+                    <li>About Us</li>
+                    <li>Shipping Information</li>
+                    <li>Track Order (For Pak Only)</li>
+                    <li>Store Locator</li>
+                </ul>
+            </div>
+            <div class="customercare">
+                <h4 class="foothead">Customer Care</h4>
+                <ul>
+                    <li>Contact Us</li>
+                    <li>Privacy Policy</li>
+                    <li>Return and Exchange Policy</li>
+                    <li>FAQs</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bottomfooter">
+        <div class="pagewidth">
+            <div class="trademarks">
+            © 2022 Bonanza | All Rights Reserved | <span class="devlinks"> Developed by Moosa</span>| <span class="devlinks">Powered by Mekdiz</span>
+            </div>
+        </div>
+    </div>    
+   </footer>
 </body>
