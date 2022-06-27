@@ -1,0 +1,29 @@
+.dropdown{
+    display:none;
+   
+}
+
+.mainnav :hover .dropdown {
+    display:block;
+    position: absolute;
+}
+
+.mainnav :hover .dropdown ul {
+display: block;
+margin: 10px;
+text-transform: none;
+opacity: 1;
+box-shadow: 0 0 4px #0000001a;
+background-color: #fff;
+
+
+}
+
+.dropdown ul :hover {
+background: #f2f2f2;
+}
+.dropdown ul li a{
+    text-transform: capitalize ;
+    font-weight: 400;
+    font-size: 14px;
+}

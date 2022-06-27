@@ -1,0 +1,72 @@
+
+#arrivals{
+    color: #6FB150 !important;
+}
+
+.mainnav{
+    position: relative;
+}
+#sale{
+    color: #f00 !important;
+}
+
+#blinker{
+    animation: blinker 0.75s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        color: #6FB150;
+    }
+  }
+.megamenu{
+    display: none !important;
+    position: absolute;
+    left:0;
+    padding: 20px 30px;
+    min-width: 1025px;
+    max-height: 600px;
+    background-color: white;
+    opacity: 1;
+    z-index: 30;
+    font-size: 14px;
+
+}
+ .mainnav li:hover  .megamenu{
+    display: block !important;
+    
+ }
+
+ .dropdown{
+    display: none;
+ }
+
+ .submenutitle{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+ }
+
+ .submenuoptions{
+    font-weight: normal !important;
+    transition: all .3s ease-out;
+ }
+
+ .menuwrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
+ .submenutitle:hover{
+    color: #f77575;
+ }
+
+ .submenuoptions:hover{
+    color: #f77575;
+    transform: translateX(10px);
+    list-style-type: '-';
+
+ }
+
+ 

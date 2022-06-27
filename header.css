@@ -5,6 +5,8 @@
 body{
     font-family: 'RennerMediumFont';
     font-size: 12px;
+    height: 100%;
+    width: 100%;
 }
 header {
     text-align: center;
@@ -20,23 +22,26 @@ header {
 
 .navbar{
     border-bottom: 1px solid #000000;
+    position: relative;
 }
-.navbar ul {
+.mainnav {
     display : inline-flex;
     list-style: none;
     color: #000000;
-    padding-inline-start: 0px;
-   
+    text-align: left;
     
 }
 
-.navbar ul li {
+.mainnav ul {
+    padding-inline-start: 0%;
+}
+.mainnav li {
     
     padding: 5px;
     margin:0px;
 }
 
-.navbar ul li a {
+.mainnav li a {
     color: #000000;
     text-decoration: none; 
     text-transform: uppercase;
@@ -44,39 +49,10 @@ header {
     
 }
 
-.navbar ul li :hover{
+.navitems:hover {
     color: #40e0d0;
 }
 
-.dropdown{
-    display:none;
-   
-}
-
-.navbar ul :hover .dropdown {
-    display:block;
-    position: absolute;
-}
-
-.navbar ul :hover .dropdown ul {
-display: block;
-margin: 10px;
-text-transform: none;
-opacity: 1;
-box-shadow: 0 0 4px #0000001a;
-background-color: #fff;
-
-
-}
-
-.dropdown ul :hover {
-background: #f2f2f2;
-}
-.dropdown ul li a{
-    text-transform: capitalize ;
-    font-weight: 400;
-    font-size: 14px;
-}
 
 
 .topheader{

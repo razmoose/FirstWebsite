@@ -1,0 +1,56 @@
+.slideshow{
+    overflow: hidden;
+}
+
+.slideshow figure{
+    width:500%;
+    position: relative;
+    margin:0;
+    left:0;
+    animation: 20s slideshow infinite;
+}
+.slideshow figure img{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slideshow {
+    0%{
+        left:0;
+    }
+    18%{
+        left:0;
+    }
+    20%{
+        left:-100%;
+    }
+
+    38%{
+        left:-100%;
+    }
+
+    40%{
+        left:-200%;
+    }
+
+    58%{
+        left:-200%;
+    }
+
+    60%{
+        left:-300%;
+    }
+
+    78%{
+        left:-300%;
+    }
+    80%{
+        left:-400%;
+    }
+    98%{
+        left:-400%;
+    }
+    100%
+    {
+        left:-500%;
+    }}
